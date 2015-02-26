@@ -1,0 +1,17 @@
+
+/* 스핀 애니메이션 시작. 실행중일 때 스핀 아이콘 빙글빙글 돌도록. */
+.icon-spin {
+  display: inline-block;
+  /*
+  animation: 1.5s linear 0s normal none infinite running spin;
+  */
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-name: spin;
+}
+/* 스핀 애니메이션 끝. */
